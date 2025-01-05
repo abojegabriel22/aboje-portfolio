@@ -274,7 +274,6 @@ header.sticky{
     letter-spacing: 1px;
     background: #ffffff99;
     color: var(--text-color);
-
 }
 .box:hover{
     transform: translateY(-8px);
@@ -343,7 +342,7 @@ header.sticky{
     border-radius: 50%;
 }
 .row:hover img{
-    transform: scale(1.5);
+    transform: scale(1.1);
 
 }
 .row:hover .layer{
@@ -460,7 +459,9 @@ header.sticky{
     font-size: 14px;
 
 }
+
 .top i{
+    position: sticky;
     padding: 10px;
     border-radius: 8px;
     font-size: 15px;
