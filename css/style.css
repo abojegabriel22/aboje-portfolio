@@ -589,8 +589,10 @@ summary {
 }
 
 @media (max-width: 390px){
+    .button{
+        margin-bottom: 60px;
+    }
     .btn{
         font-size: 0.8rem;
-    
     }
 }
