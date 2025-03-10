@@ -589,14 +589,6 @@ summary {
 }
 
 @media (max-width: 500px){
-    /* .slide{
-        padding-top: 500px;
-    } */
-}
-@media (max-width: 390px){
-    /* .button{
-        margin-bottom: 500px;
-    } */
     .btn{
         font-size: 0.8rem;
     }
