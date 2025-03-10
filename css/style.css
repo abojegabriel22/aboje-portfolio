@@ -589,20 +589,14 @@ summary {
 }
 
 @media (max-width: 500px){
-    /* .home-text h1{
-        font-size: var(--h2-font);
-        font-weight: 500;
-        
-    } */
-    .slide{
-        /* margin-top: 500px; */
+    /* .slide{
         padding-top: 500px;
-    }
+    } */
 }
 @media (max-width: 390px){
-    .button{
+    /* .button{
         margin-bottom: 500px;
-    }
+    } */
     .btn{
         font-size: 0.8rem;
     }
