@@ -590,8 +590,8 @@ summary {
 
 @media (max-width: 500px){
     .slide{
-        margin-top: 500px;
-        padding-top: 300px;
+        /* margin-top: 500px; */
+        padding-top: 500px;
     }
 }
 @media (max-width: 390px){
