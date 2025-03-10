@@ -85,7 +85,7 @@ section{
     justify-content: flex-start;
 }
 .slide{
-    margin-top: 60px !important;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 .one{
@@ -588,9 +588,14 @@ summary {
     }
 }
 
+@media (max-width: 500px){
+    .slide{
+        margin-top: 100px;
+    }
+}
 @media (max-width: 390px){
     .button{
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
     .btn{
         font-size: 0.8rem;
