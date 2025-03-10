@@ -85,6 +85,7 @@ section{
     justify-content: flex-start;
 }
 .slide{
+    margin-top: 20px !important;
     margin-bottom: 20px;
 }
 .one{
@@ -131,6 +132,7 @@ section{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 
 }
 .btn{
@@ -464,6 +466,15 @@ summary {
     cursor: pointer;
 }
 
+.map iframe {
+    display: block;
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+
 .end{
     padding: 20px 15%;
     display: flex;
@@ -574,5 +585,12 @@ summary {
     .navlist.open{
         top: 100%;
 
+    }
+}
+
+@media (max-width: 390px){
+    .btn{
+        font-size: 0.8rem;
+    
     }
 }
