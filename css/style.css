@@ -529,9 +529,9 @@ summary {
     .home-text h3{
         font-size: 2.5rem;
     }
-    .home{
+    /* .home{
         height: 87vh;
-    }
+    } */
 }
 
 @media (max-width: 920px){
@@ -589,6 +589,11 @@ summary {
 }
 
 @media (max-width: 500px){
+    /* .home-text h1{
+        font-size: var(--h2-font);
+        font-weight: 500;
+        
+    } */
     .slide{
         /* margin-top: 500px; */
         padding-top: 500px;
