@@ -16,3 +16,22 @@ window.onscroll = () => {
     menu.classList.remove("bx-x");
     navlist.classList.remove("open");
 };
+
+// (function() {
+//   const html = document.documentElement;
+//   const btn = document.getElementById('theme-toggle');
+//   let currentTheme = localStorage.getItem('theme');
+
+//   // Detect system setting if no stored preference
+//   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+//   if (!currentTheme) {
+//     currentTheme = prefersDark ? 'dark' : 'light';
+//   }
+//   html.setAttribute('data-theme', currentTheme);
+
+//   btn.addEventListener('click', () => {
+//     const newTheme = (html.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+//     html.setAttribute('data-theme', newTheme);
+//     localStorage.setItem('theme', newTheme);
+//   });
+// })();
